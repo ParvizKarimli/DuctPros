@@ -5,7 +5,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg">
 
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="/">
                 <img src="assets/images/logo.png" alt="" />
             </a>
 
@@ -17,7 +17,7 @@
                 <ul class="navbar-nav ml-auto">
 
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about-us.html">About Us</a>

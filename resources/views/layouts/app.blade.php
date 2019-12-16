@@ -3,14 +3,14 @@
 <head>
 
     <!-- Browser Bar Icon -->
-    <link rel="shortcut icon" href="assets/images/icons/fav-icon.png" />
+    <link rel="shortcut icon" href="assets/images/icons/favicon.png" />
 
     <!-- Meta -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Title -->
-    <title>Roonixa || Home</title>
+    <title>DuctPros | @yield('title_specific')</title>
 
     <!-- START CSS -->
     <!-- Bootstrap -->

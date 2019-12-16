@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title_specific', 'Home')
+
 @section('content')
     @include('inc.slider')
     @include('inc.services_items')
