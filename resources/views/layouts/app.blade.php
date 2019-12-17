@@ -58,6 +58,7 @@
 @include('inc.sub_footer')
 @include('inc.to_top_btn')
 @include('inc.scripts')
+@include('inc.tawk')
 
 </body>
 </html>
