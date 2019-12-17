@@ -20,41 +20,19 @@
                         <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about-us.html">About Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                        <div class="dropdown-menu dropdown-menu-right" data-animations="fadeInDown">
-                            <a class="dropdown-item" href="services.html">Services</a>
-                            <a class="dropdown-item" href="service-single.html">Service Single</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-                        <div class="dropdown-menu dropdown-menu-right" data-animations="fadeInDown">
-                            <a class="dropdown-item" href="projects.html">Projects</a>
-                            <a class="dropdown-item" href="project-single.html">Project Single</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                        <div class="dropdown-menu dropdown-menu-right" data-animations="fadeInDown">
-                            <a class="dropdown-item" href="team.html">Team</a>
-                            <a class="dropdown-item" href="faq.html">FAQs</a>
-                            <a class="dropdown-item" href="client-reviews.html">Client Reviews</a>
-                            <a class="dropdown-item" href="404.html">404</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
-                        <div class="dropdown-menu dropdown-menu-right" data-animations="fadeInDown">
-                            <a class="dropdown-item" href="blog-grid.html">Blog Grid</a>
-                            <a class="dropdown-item" href="blog-grid-side-bar.html">Blog Grid - Side Bar</a>
-                            <a class="dropdown-item" href="blog-single-side-bar.html">Blog Single - Side Bar</a>
-                        </div>
+                        <a class="nav-link" href="/about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact-us.html">Contact Us</a>
+                        <a class="nav-link" href="/services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">Contact Us</a>
                     </li>
 
                 </ul>

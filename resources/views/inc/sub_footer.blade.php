@@ -3,20 +3,25 @@
     <div class="container">
         <div class="row d-flex align-items-center">
 
-            <div class="col-lg-6">
+            <div class="col-lg-4">
                 <div class="sub-footer-left">
-                    <p class="m-0">&copy; 2019 All rights reserved. Company Name</p>
+                    <p class="m-0">&copy; 2019 All rights reserved. DuctPros</p>
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-4">
+                <div class="sub-footer-left">
+                    <p class="m-0">Developed by <a target="_blank" href="https://parvizkarimli.com">Parviz Karimli</a></p>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
                 <div class="sub-footer-right">
                     <ul>
-                        <li><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                        <li><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                        <li><a href="#"><i class="mdi mdi-pinterest"></i></a></li>
-                        <li><a href="#"><i class="mdi mdi-google-plus"></i></a></li>
-                        <li><a href="#"><i class="mdi mdi-linkedin"></i></a></li>
+                        <li><a href="https://facebook.com"><i class="mdi mdi-facebook"></i></a></li>
+                        <li><a href="https://instagram.com"><i class="mdi mdi-instagram"></i></a></li>
+                        <li><a href="https://yelp.com"><i class="mdi mdi-yelp"></i></a></li>
+                        <li><a href="https://linkedin.com"><i class="mdi mdi-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>

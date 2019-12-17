@@ -11,7 +11,7 @@
 
                     <div class="collapse navbar-collapse" id="toptoggnav">
 
-                        <div class="col-lg-2">
+                        <div class="col-lg-5">
                             <ul>
                                 <li><a href="https://facebook.com"><i class="mdi mdi-facebook"></i></a></li>
                                 <li><a href="https://instagram.com"><i class="mdi mdi-instagram"></i></a></li>
@@ -22,9 +22,9 @@
 
                         <div class="col-lg-7">
                             <ul class="text-center">
-                                <li><a target="_blank" href="https://google.com/maps/place/Santa+Clara,+CA+95050,+USA"><i class="mdi mdi-map-marker color-yellow"></i> Santa Clara, California, 95050.</a></li>
+                                <li><a target="_blank" href="https://google.com/maps/place/Santa+Clara,+CA+95050,+USA"><i class="mdi mdi-map-marker color-yellow"></i> Santa Clara, California, 95050</a></li>
                                 <li><a href="tel: +1 (201) 555-0123"><i class="mdi mdi-phone-in-talk color-yellow"></i> +1 (201) 555-0123</a></li>
-                                <li><a href="#"><i class="mdi mdi-clock color-yellow"></i> 9AM-9PM Mon-Fri</a></li>
+                                <li><a target="_blank" href="https://google.com/calendar"><i class="mdi mdi-clock color-yellow"></i> 9AM-9PM Mon-Fri</a></li>
                             </ul>
                         </div>
 
