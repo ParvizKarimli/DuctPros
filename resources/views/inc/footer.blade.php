@@ -41,9 +41,21 @@
                     <h4 class="heading-icon">Contact Us</h4>
                 </div>
                 <div class="footer-contact">
-                    <p><i class="mdi mdi-map-marker color-yellow"></i> Santa Clara, California, 95050</p>
-                    <p><i class="mdi mdi-phone-in-talk color-yellow"></i> +1 (201) 555-0123</p>
-                    <p><i class="mdi mdi-clock color-yellow"></i> 9AM-9PM Mon-Fri</p>
+                    <p>
+                        <a target="_blank" href="https://google.com/maps/place/Santa+Clara,+CA+95050,+USA">
+                            <i class="mdi mdi-map-marker color-yellow"></i> Santa Clara, California, 95050
+                        </a>
+                    </p>
+                    <p>
+                        <a href="tel: +1 (201) 555-0123">
+                            <i class="mdi mdi-phone-in-talk color-yellow"></i> +1 (201) 555-0123
+                        </a>
+                    </p>
+                    <p>
+                        <a target="_blank" href="https://google.com/calendar">
+                            <i class="mdi mdi-clock color-yellow"></i> 9AM-9PM Mon-Fri
+                        </a>
+                    </p>
                 </div>
                 <div class="footer-logo">
                     <img src="assets/images/logo.png" alt="" />

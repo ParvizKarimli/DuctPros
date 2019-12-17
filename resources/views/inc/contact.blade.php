@@ -11,7 +11,7 @@
                             <div class="col-lg-12 d-flex text-center">
                                 <div class="section-start-col w-100">
                                     <div>
-                                        <h2 class="m-0 heading-icon">Contact</h2>
+                                        <h2 class="m-0 heading-icon">Contact Us</h2>
                                     </div>
                                 </div>
                             </div>
