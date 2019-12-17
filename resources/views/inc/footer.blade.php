@@ -10,11 +10,11 @@
                 <div class="footer-list">
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/about">About Us</a></li>
-                        <li><a href="/services">Services</a></li>
-                        <li><a href="/portfolio">Portfolio</a></li>
-                        <li><a href="/pricing">Pricing</a></li>
-                        <li><a href="/contact">Contact Us</a></li>
+                        <li><a href="/#about-us">About Us</a></li>
+                        <li><a href="/#services-items">Services</a></li>
+                        <li><a href="/#our-projects">Portfolio</a></li>
+                        <li><a href="/#packages">Pricing</a></li>
+                        <li><a href="/#appointment">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
