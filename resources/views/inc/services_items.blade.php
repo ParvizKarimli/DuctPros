@@ -7,11 +7,10 @@
                 <div class="section-start-col w-50">
                     <div class="float-left">
                         <h2 class="heading-icon">What We Offer</h2>
-                        <p class="m-0 color-blue">Our Quality Services <i class="mdi mdi-check-circle"></i></p>
                     </div>
                     <div class="float-right">
                         <div class="section-start-btn">
-                            <a href="services.html" class="btn bg-blue">Get Start</a>
+                            <a href="/services" class="btn bg-blue">View All Services</a>
                         </div>
                     </div>
                 </div>
@@ -29,7 +28,6 @@
                             <div class="card">
                                 <h5>House Cleaning</h5>
                                 <p>Lorem Ipsum is simply dummy text of the printing a typesetting industry.</p>
-                                <a href="service-single.html" class="btn btn-sm bg-blue">Get Now</a>
                             </div>
                         </div>
                     </div>
@@ -43,7 +41,6 @@
                             <div class="card">
                                 <h5>Commercial Cleaning</h5>
                                 <p>Lorem Ipsum is simply dummy text of the printing a typesetting industry.</p>
-                                <a href="service-single.html" class="btn btn-sm bg-blue">Get Now</a>
                             </div>
                         </div>
                     </div>
@@ -57,7 +54,6 @@
                             <div class="card">
                                 <h5>Laundry Services</h5>
                                 <p>Lorem Ipsum is simply dummy text of the printing a typesetting industry.</p>
-                                <a href="service-single.html" class="btn btn-sm bg-blue">Get Now</a>
                             </div>
                         </div>
                     </div>
@@ -71,7 +67,6 @@
                             <div class="card">
                                 <h5>Car Cleaning</h5>
                                 <p>Lorem Ipsum is simply dummy text of the printing a typesetting industry.</p>
-                                <a href="service-single.html" class="btn btn-sm bg-blue">Get Now</a>
                             </div>
                         </div>
                     </div>
@@ -85,7 +80,6 @@
                             <div class="card">
                                 <h5>Renovation Cleaning</h5>
                                 <p>Lorem Ipsum is simply dummy text of the printing a typesetting industry.</p>
-                                <a href="service-single.html" class="btn btn-sm bg-blue">Get Now</a>
                             </div>
                         </div>
                     </div>
@@ -99,7 +93,6 @@
                             <div class="card">
                                 <h5>Carpet Cleaning</h5>
                                 <p>Lorem Ipsum is simply dummy text of the printing a typesetting industry.</p>
-                                <a href="service-single.html" class="btn btn-sm bg-blue">Get Now</a>
                             </div>
                         </div>
                     </div>

@@ -7,11 +7,10 @@
                 <div class="section-start-col w-50">
                     <div class="float-left">
                         <h2 class="heading-icon">Recent Projects</h2>
-                        <p class="m-0 color-blue">Our Quality Projects <i class="mdi mdi-check-circle"></i></p>
                     </div>
                     <div class="float-right">
                         <div class="section-start-btn">
-                            <a href="projects.html" class="btn bg-blue">View All</a>
+                            <a href="/projects" class="btn bg-blue">View All Projects</a>
                         </div>
                     </div>
                 </div>
@@ -24,8 +23,7 @@
                     </div>
                     <div class="hover-eff-content hover-eff-bottom">
                         <ul>
-                            <li><a href="project-single.html"><i class="mdi mdi-link"></i></a></li>
-                            <li><a class="mfpclick" href="#house-cleaning1"><i class="mdi mdi-eye"></i></a></li>
+                            <li><a class="mfpclick" href="#house-cleaning1"><i class="mdi mdi-magnify-plus-outline"></i></a></li>
                         </ul>
                         <h5>House Cleaning</h5>
                     </div>
@@ -43,8 +41,7 @@
                     </div>
                     <div class="hover-eff-content hover-eff-bottom">
                         <ul>
-                            <li><a href="project-single.html"><i class="mdi mdi-link"></i></a></li>
-                            <li><a class="mfpclick" href="#commercial-cleaning1"><i class="mdi mdi-eye"></i></a></li>
+                            <li><a class="mfpclick" href="#commercial-cleaning1"><i class="mdi mdi-magnify-plus-outline"></i></a></li>
                         </ul>
                         <h5>Commercial Cleaning</h5>
                     </div>
@@ -62,8 +59,7 @@
                     </div>
                     <div class="hover-eff-content hover-eff-bottom">
                         <ul>
-                            <li><a href="project-single.html"><i class="mdi mdi-link"></i></a></li>
-                            <li><a class="mfpclick" href="#laundry-services1"><i class="mdi mdi-eye"></i></a></li>
+                            <li><a class="mfpclick" href="#laundry-services1"><i class="mdi mdi-magnify-plus-outline"></i></a></li>
                         </ul>
                         <h5>Laundry Services</h5>
                     </div>
@@ -81,8 +77,7 @@
                     </div>
                     <div class="hover-eff-content hover-eff-bottom">
                         <ul>
-                            <li><a href="project-single.html"><i class="mdi mdi-link"></i></a></li>
-                            <li><a class="mfpclick" href="#car-cleaning1"><i class="mdi mdi-eye"></i></a></li>
+                            <li><a class="mfpclick" href="#car-cleaning1"><i class="mdi mdi-magnify-plus-outline"></i></a></li>
                         </ul>
                         <h5>Car Cleaning</h5>
                     </div>
@@ -100,8 +95,7 @@
                     </div>
                     <div class="hover-eff-content hover-eff-bottom">
                         <ul>
-                            <li><a href="project-single.html"><i class="mdi mdi-link"></i></a></li>
-                            <li><a class="mfpclick" href="#renovation-cleaning1"><i class="mdi mdi-eye"></i></a></li>
+                            <li><a class="mfpclick" href="#renovation-cleaning1"><i class="mdi mdi-magnify-plus-outline"></i></a></li>
                         </ul>
                         <h5>Renovation Cleaning</h5>
                     </div>
@@ -119,8 +113,7 @@
                     </div>
                     <div class="hover-eff-content hover-eff-bottom">
                         <ul>
-                            <li><a href="project-single.html"><i class="mdi mdi-link"></i></a></li>
-                            <li><a class="mfpclick" href="#carpet-cleaning1"><i class="mdi mdi-eye"></i></a></li>
+                            <li><a class="mfpclick" href="#carpet-cleaning1"><i class="mdi mdi-magnify-plus-outline"></i></a></li>
                         </ul>
                         <h5>Carpet Cleaning</h5>
                     </div>

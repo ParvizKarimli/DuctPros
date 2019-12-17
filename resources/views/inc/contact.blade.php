@@ -11,7 +11,7 @@
                             <div class="col-lg-12 d-flex text-center">
                                 <div class="section-start-col w-100">
                                     <div>
-                                        <h2 class="m-0 heading-icon">Make Appointment</h2>
+                                        <h2 class="m-0 heading-icon">Contact</h2>
                                     </div>
                                 </div>
                             </div>
@@ -24,12 +24,14 @@
                             <div class="col-lg-6 col-form-control">
                                 <div class="form-group">
                                     <select name="services" class="form-control">
+                                        <option value="select">Subject</option>
                                         <option value="house-cleaning">House Cleaning</option>
                                         <option class="commercial-cleaning">Commercial Cleaning</option>
                                         <option class="laundry-services">Laundry Services</option>
                                         <option value="car-cleaning">Car Cleaning</option>
                                         <option class="renovation-cleaning">Renovation Cleaning</option>
                                         <option class="carpet-cleaning">Carpet Cleaning</option>
+                                        <option class="carpet-cleaning">Other</option>
                                     </select>
                                 </div>
                             </div>
@@ -45,11 +47,11 @@
                             </div>
                             <div class="col-lg-12 col-form-control">
                                 <div class="form-group">
-                                    <textarea class="form-control" rows="4" placeholder="Write Message"></textarea>
+                                    <textarea class="form-control" rows="4" placeholder="Message"></textarea>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-form-control">
-                                <button type="submit" name="submit" class="btn bg-blue btn-block">Make Appointment</button>
+                                <button type="submit" name="submit" class="btn bg-blue btn-block">Submit</button>
                             </div>
 
                         </div>
@@ -60,8 +62,12 @@
             <div class="col-lg-4 appointment-right">
                 <div class="appointment-right-c">
                     <div class="text-center">
-                        <h2 class="heading-icon">Help Line</h2>
-                        <h5>+1 (201) 555-0123</h5>
+                        <i class="mdi mdi-phone-in-talk-outline"></i>
+                        <h5>
+                            <a href="tel: +1 (201) 555-0123">
+                                +1 (201) 555-0123
+                            </a>
+                        </h5>
                     </div>
                 </div>
             </div>

@@ -5,15 +5,7 @@
 
             <div class="col-lg-12 d-flex text-center">
                 <div class="section-start-col w-50">
-                    <div class="float-left">
-                        <h2 class="heading-icon">Packages</h2>
-                        <p class="m-0 color-blue">Choose Your Packages <i class="mdi mdi-check-circle"></i></p>
-                    </div>
-                    <div class="float-right">
-                        <div class="section-start-btn">
-                            <a href="packages.html" class="btn bg-blue">Get Start</a>
-                        </div>
-                    </div>
+                    <h2 class="heading-icon">Packages</h2>
                 </div>
             </div>
 
@@ -37,9 +29,6 @@
                             <li><i class="mdi mdi-check mdi-24px text-success"></i> 5 Times Carpet Cleaning</li>
                             <li><i class="mdi mdi-close mdi-24px text-danger"></i> 24/7 Support</li>
                         </ul>
-                        <div class="package-btn">
-                            <a href="packages.html" class="btn bg-blue">Get Start</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -64,9 +53,6 @@
                             <li><i class="mdi mdi-check mdi-24px text-success"></i> 5 Times Carpet Cleaning</li>
                             <li><i class="mdi mdi-check mdi-24px text-success"></i> 24/7 Support</li>
                         </ul>
-                        <div class="package-btn">
-                            <a href="packages.html" class="btn bg-blue">Get Start</a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -94,9 +80,6 @@
                             <li><i class="mdi mdi-check mdi-24px text-success"></i> 5 Times Carpet Cleaning</li>
                             <li><i class="mdi mdi-check mdi-24px text-success"></i> 24/7 Support</li>
                         </ul>
-                        <div class="package-btn">
-                            <a href="packages.html" class="btn bg-blue">Get Start</a>
-                        </div>
                     </div>
                 </div>
             </div>
