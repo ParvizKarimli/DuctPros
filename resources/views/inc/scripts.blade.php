@@ -26,4 +26,7 @@
 
 <!-- Common Script -->
 <script src="assets/js/common-script.js"></script>
+
+<!-- My Script -->
+<script src="js/myscript.js"></script>
 <!-- END SCRIPTS -->
