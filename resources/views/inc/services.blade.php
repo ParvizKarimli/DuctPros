@@ -26,7 +26,7 @@
                                 <i class="mdi mdi-broom service-item-icon"></i>
                             </div>
                             <div class="card">
-                                <h5>Dryer Vent/Duct cleaning at $139.99</h5>
+                                <h5>Dryer Vent/Duct Cleaning at $139.99</h5>
                                 <p>
                                     We utilize special tools and equipment to force air inside your dryer vent and  carefully cleaning out your venting system without leaving any mess behind.
                                 </p>

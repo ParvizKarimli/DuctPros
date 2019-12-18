@@ -11,10 +11,9 @@
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="/#about-us">About Us</a></li>
-                        <li><a href="/#services-items">Services</a></li>
-                        <li><a href="/#our-projects">Portfolio</a></li>
-                        <li><a href="/#packages">Pricing</a></li>
-                        <li><a href="/#appointment">Contact Us</a></li>
+                        <li><a href="/#services">Services</a></li>
+                        <li><a href="/#projects">Projects</a></li>
+                        <li><a href="/#contact-us">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -26,12 +25,8 @@
                 <div class="footer-list">
                     <ul>
                         <li><a href="/services">All Services</a></li>
-                        <li><a href="service-single.html">House Cleaning</a></li>
-                        <li><a href="service-single.html">Commercial Cleaning</a></li>
-                        <li><a href="service-single.html">Laundry Services</a></li>
-                        <li><a href="service-single.html">Car Cleaning</a></li>
-                        <li><a href="service-single.html">Renovation Cleaning</a></li>
-                        <li><a href="service-single.html">Carpet Cleaning</a></li>
+                        <li><a href="service-single.html">Dryer Vent/Duct Cleaning</a></li>
+                        <li><a href="service-single.html">Chimney Sweep</a></li>
                     </ul>
                 </div>
             </div>
