@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Service;
 use Illuminate\Http\Request;
 
 class ServicesController extends Controller
@@ -13,7 +14,15 @@ class ServicesController extends Controller
      */
     public function index()
     {
-        //
+        $services = Service::orderBy('id', 'ASC')
+            ->paginate(10);
+        return view
+        (
+            'services.index',
+            [
+                'services' => $services,
+            ]
+        );
     }
 
     /**

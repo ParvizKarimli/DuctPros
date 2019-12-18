@@ -16,20 +16,18 @@
 
                     <h1>You are logged in!</h1>
 
-                    <div class="container">
-                        <ul class="list-group">
-                            <li class="list-group-item">
-                                <a href="/dashboard/services">
-                                    Services
-                                </a>
-                            </li>
-                            <li class="list-group-item">
-                                <a href="/dashboard/projects">
-                                    Projects
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a href="/dashboard/services">
+                                Services
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="/dashboard/projects">
+                                Projects
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
