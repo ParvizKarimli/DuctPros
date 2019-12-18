@@ -18,3 +18,5 @@ Route::post('login', 'Auth\LoginController@login');
 Route::post('logout', 'Auth\LoginController@logout')->name('logout');
 
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
+
+Route::resource('dashboard/services', 'ServicesController');
