@@ -46,13 +46,13 @@
 	.section-start-col{
 		width: 100% !important;
 	}
-	#services-items .service-single-bottom{
+	#services .service-single-bottom{
 		margin-bottom: 30px;
 	}
-	#appointment .appointment-form{
+	#contact-us .appointment-form{
 		width: 100%;
 	}
-	#appointment .appointment-right{
+	#contact-us .appointment-right{
 		position: relative;
 		max-width: 100%;
 	}
@@ -118,7 +118,7 @@
 	}
 }
 @media (max-width: 500px) {
-	#appointment .appointment-bg{
+	#contact-us .appointment-bg{
 		padding: 40px;
 	}
 }

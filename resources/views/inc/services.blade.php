@@ -1,5 +1,5 @@
-<!-- START SERVICES ITEMS -->
-<div id="services-items">
+<!-- START SERVICES -->
+<div id="services">
     <div class="container">
         <div class="row d-flex align-items-center">
 
@@ -103,4 +103,4 @@
         </div>
     </div>
 </div>
-<!-- END SERVICES ITEMS -->
+<!-- END SERVICES -->

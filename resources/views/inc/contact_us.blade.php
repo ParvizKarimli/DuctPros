@@ -1,5 +1,5 @@
-<!-- START APPOINTMENT -->
-<div id="appointment">
+<!-- START CONTACT US -->
+<div id="contact-us">
     <div class="container">
         <div class="row d-flex align-items-center position-relative">
 
@@ -75,4 +75,4 @@
         </div>
     </div>
 </div>
-<!-- END APPOINTMENT -->
+<!-- END CONTACT US -->

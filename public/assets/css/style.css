@@ -944,17 +944,17 @@ button[aria-expanded="true"]{
 /**=========================
 	START SERVICES ITEMS
 =========================**/
-#services-items{
+#services{
 	padding: 80px 0px 50px;
 }
-#services-items .service-item,
-#services-items .service-single-col{
+#services .service-item,
+#services .service-single-col{
 	margin-bottom: 30px;
 }
-#services-items .service-item-img{
+#services .service-item-img{
 	position: relative;
 }
-#services-items .service-item:hover .service-item-img:before{
+#services .service-item:hover .service-item-img:before{
 	content: "";
 	position: absolute;
 	left: 0;
@@ -970,7 +970,7 @@ button[aria-expanded="true"]{
 	background-color: #191a1d;
 	opacity: 0.5;
 }
-#services-items .service-item-icon{
+#services .service-item-icon{
     position: absolute;
     z-index: 9;
     left: 0px;
@@ -989,41 +989,41 @@ button[aria-expanded="true"]{
 	-moz-transition:all 0.4s;
 	-o-transition:all 0.4s;
 }
-#services-items .service-item:hover .service-item-icon{
+#services .service-item:hover .service-item-icon{
 	background-color: #2e8aee;
 	transform: rotate(360deg) scaleX(-1);
 	-webkit-transform: rotate(360deg) scaleX(-1);
 	-moz-transform: rotate(360deg) scaleX(-1);
 }
-#services-items .card h5{
+#services .card h5{
 	margin-bottom: 15px;
 	transition:all 0.4s;
 	-webkit-transition:all 0.4s;
 	-moz-transition:all 0.4s;
 	-o-transition:all 0.4s;
 }
-#services-items .card:hover h5{
+#services .card:hover h5{
 	color: #1f7bdd;
 }
-#services-items .service-single-img{
+#services .service-single-img{
 	margin-bottom: 20px;
 }
-#services-items .service-single-bottom{
+#services .service-single-bottom{
 	padding: 40px;
 	border: 1px solid #ccc;
 }
-#services-items .service-single-bottom form{
+#services .service-single-bottom form{
 	padding: 4px;
 }
-#services-items .project-single-list .card{
+#services .project-single-list .card{
 	margin-top: 10px;
 	padding-bottom: 15px;
 }
-#services-items .project-single-list p{
+#services .project-single-list p{
 	margin-bottom: 0px;
 	font-weight: 500;
 }
-#services-items .project-single-list p span{
+#services .project-single-list p span{
 	font-weight: 100;
 }
 /**=========================
@@ -1156,10 +1156,10 @@ button[aria-expanded="true"]{
 /**=========================
 	START OUR PROJECTS
 =========================**/
-#our-projects{
+#projects{
 	padding: 80px 0px 50px;
 }
-#our-projects .hover-eff-warp{
+#projects .hover-eff-warp{
 	margin-bottom: 30px;
 }
 /**=========================
@@ -1194,34 +1194,34 @@ button[aria-expanded="true"]{
 /**=========================
 	START APPOINTMENT
 =========================**/
-#appointment{
+#contact-us{
 	position: relative;
 	background-image: url('../images/img-3.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
-#appointment .appointment-bg{
+#contact-us .appointment-bg{
 	background-color: rgba(25, 26, 29, 0.7);
 	padding: 50px 70px;
 }
-#appointment .appointment-form{
+#contact-us .appointment-form{
 	width: 90%;
 	padding: 4px;
 }
-#appointment .section-start-col h2{
+#contact-us .section-start-col h2{
 	color: #fff;
 }
-#appointment .appointment-right{
+#contact-us .appointment-right{
 	position: absolute;
 	right: 0;
 	max-width: 43%;
 }
-#appointment .appointment-right-c{
+#contact-us .appointment-right-c{
 	padding: 60px 30px;
 	background-color: #fff;
 }
-#appointment .appointment-right-c h2{
+#contact-us .appointment-right-c h2{
 	margin-bottom: 15px;
 }
 /**=========================
@@ -1269,13 +1269,13 @@ button[aria-expanded="true"]{
 /**=========================
 	START PACKAGES
 =========================**/
-#packages{
+#pricing{
 	padding: 80px 0px 50px;
 }
-#packages .package-warp{
+#pricing .package-warp{
 	margin-bottom: 30px;
 }
-#packages .package-head{
+#pricing .package-head{
 	padding: 30px;
 	color: #fff;
 	position: relative;
@@ -1284,7 +1284,7 @@ button[aria-expanded="true"]{
 	-moz-transition:all 0.4s;
 	-o-transition:all 0.4s;
 }
-#packages .package-head-icon:after{
+#pricing .package-head-icon:after{
 	content: "";
 	font-family: "Material Design Icons";
 	position: absolute;
@@ -1299,65 +1299,65 @@ button[aria-expanded="true"]{
 	-moz-transition:all 0.4s;
 	-o-transition:all 0.4s;
 }
-#packages .package-warp:hover .package-head-icon:after{
+#pricing .package-warp:hover .package-head-icon:after{
 	font-size: 140px;
 }
-#packages .package-head-icon-1:after{
+#pricing .package-head-icon-1:after{
 	content: "\F0E2";
 }
-#packages .package-head-icon-2:after{
+#pricing .package-head-icon-2:after{
 	content: "\F0E2";
 }
-#packages .package-head-icon-3:after{
+#pricing .package-head-icon-3:after{
 	content: "\F0E2";
 }
-#packages .package-popular{
+#pricing .package-popular{
 	position: absolute;
 	top: 0px;
 	right: 30px;
 }
-#packages .package-popular{
+#pricing .package-popular{
 	padding: 2px 10px;
 }
-#packages .package-title{
+#pricing .package-title{
 	background-color: rgba(255, 255, 255, 0.2);
 	display: inline-block;
 	padding: 8px 25px;
 	margin-bottom: 15px;
 }
-#packages .package-title h2{
+#pricing .package-title h2{
 	margin-bottom: 0;
 }
-#packages .package-head p{
+#pricing .package-head p{
 	margin: 0;
 	color: #fff;
 }
-#packages .package-price h1{
+#pricing .package-price h1{
 	margin-bottom: 0;
 }
-#packages .package-price h1 i{
+#pricing .package-price h1 i{
 	font-size: 100%;
 	width: 25px;
     display: inline-block;
 }
-#packages .package-price h1 span{
+#pricing .package-price h1 span{
 	font-size: 16px;
 }
-#packages .card ul{
+#pricing .card ul{
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
 }
-#packages .card ul li{
+#pricing .card ul li{
 	margin: 0px;
 	margin-bottom: 16px;
 	padding: 0px;
 	list-style: none;
 }
-#packages .card ul li:last-child{
+#pricing .card ul li:last-child{
 	margin-bottom: 0;
 }
-#packages .package-btn{
+#pricing .package-btn{
 	margin-top: 25px;
 }
 /**=========================

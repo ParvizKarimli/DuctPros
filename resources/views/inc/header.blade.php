@@ -23,16 +23,16 @@
                         <a class="nav-link" href="/#about-us">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/#services-items">Services</a>
+                        <a class="nav-link" href="/#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/#our-projects">Portfolio</a>
+                        <a class="nav-link" href="/#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/#packages">Pricing</a>
+                        <a class="nav-link" href="/#pricing">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/#appointment">Contact Us</a>
+                        <a class="nav-link" href="/#contact-us">Contact Us</a>
                     </li>
 
                 </ul>

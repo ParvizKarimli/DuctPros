@@ -5,8 +5,8 @@
 @section('content')
     @include('inc.slider')
     @include('inc.about_us')
-    @include('inc.services_items')
-    @include('inc.our_projects')
-    @include('inc.packages')
-    @include('inc.contact')
+    @include('inc.services')
+    @include('inc.projects')
+    @include('inc.pricing')
+    @include('inc.contact_us')
 @endsection

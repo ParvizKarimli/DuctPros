@@ -1,5 +1,5 @@
-<!-- START PACKAGES -->
-<div id="packages">
+<!-- START PRICING -->
+<div id="pricing">
     <div class="container">
         <div class="row d-flex align-items-center">
 
@@ -87,4 +87,4 @@
         </div>
     </div>
 </div>
-<!-- END PACKAGES -->
+<!-- END PRICING -->

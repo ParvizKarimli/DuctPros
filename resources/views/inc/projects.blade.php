@@ -1,5 +1,5 @@
-<!-- START OUR PROJECTS -->
-<div id="our-projects" class="bg-blue-light">
+<!-- START PROJECTS -->
+<div id="projects" class="bg-blue-light">
     <div class="container">
         <div class="row d-flex align-items-center">
 
@@ -127,4 +127,4 @@
         </div>
     </div>
 </div>
-<!-- END OUR PROJECTS -->
+<!-- END PROJECTS -->
