@@ -23,11 +23,13 @@
                         <div class="service-item">
                             <div class="service-item-img">
                                 <img src="assets/images/services/img-1.jpg" alt="" class="w-100" />
-                                <i class="mdi mdi-home service-item-icon"></i>
+                                <i class="mdi mdi-broom service-item-icon"></i>
                             </div>
                             <div class="card">
-                                <h5>House Cleaning</h5>
-                                <p>Lorem Ipsum is simply dummy text of the printing a typesetting industry.</p>
+                                <h5>Dryer Vent/Duct cleaning at $139.99</h5>
+                                <p>
+                                    We utilize special tools and equipment to force air inside your dryer vent and  carefully cleaning out your venting system without leaving any mess behind.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -36,62 +38,10 @@
                         <div class="service-item">
                             <div class="service-item-img">
                                 <img src="assets/images/services/img-2.jpg" alt="" class="w-100" />
-                                <i class="mdi mdi-broom service-item-icon"></i>
+                                <i class="mdi mdi-home-roof service-item-icon"></i>
                             </div>
                             <div class="card">
-                                <h5>Commercial Cleaning</h5>
-                                <p>Lorem Ipsum is simply dummy text of the printing a typesetting industry.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="service-item">
-                            <div class="service-item-img">
-                                <img src="assets/images/services/img-3.jpg" alt="" class="w-100" />
-                                <i class="mdi mdi-buffer service-item-icon"></i>
-                            </div>
-                            <div class="card">
-                                <h5>Laundry Services</h5>
-                                <p>Lorem Ipsum is simply dummy text of the printing a typesetting industry.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="service-item">
-                            <div class="service-item-img">
-                                <img src="assets/images/services/img-4.jpg" alt="" class="w-100" />
-                                <i class="mdi mdi-car service-item-icon"></i>
-                            </div>
-                            <div class="card">
-                                <h5>Car Cleaning</h5>
-                                <p>Lorem Ipsum is simply dummy text of the printing a typesetting industry.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="service-item">
-                            <div class="service-item-img">
-                                <img src="assets/images/services/img-5.jpg" alt="" class="w-100" />
-                                <i class="mdi mdi-refresh service-item-icon"></i>
-                            </div>
-                            <div class="card">
-                                <h5>Renovation Cleaning</h5>
-                                <p>Lorem Ipsum is simply dummy text of the printing a typesetting industry.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="service-item">
-                            <div class="service-item-img">
-                                <img src="assets/images/services/img-6.jpg" alt="" class="w-100" />
-                                <i class="mdi mdi-paper-roll service-item-icon"></i>
-                            </div>
-                            <div class="card">
-                                <h5>Carpet Cleaning</h5>
+                                <h5>Chimney Sweep at $189.99</h5>
                                 <p>Lorem Ipsum is simply dummy text of the printing a typesetting industry.</p>
                             </div>
                         </div>
