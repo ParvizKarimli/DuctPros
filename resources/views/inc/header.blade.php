@@ -29,9 +29,6 @@
                         <a class="nav-link" href="/#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/#pricing">Pricing</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="/#contact-us">Contact Us</a>
                     </li>
                     @if(auth()->check())
