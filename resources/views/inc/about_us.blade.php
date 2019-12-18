@@ -19,8 +19,23 @@
             <div class="col-lg-7">
                 <h5 class="heading-icon color-blue">About Company</h5>
                 <h1>Perfect Result for <span>Cleaning Services</span> &amp; Healthy Provider</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting..</p>
-                <p><b>We are providing different types of cleaning industry.</b></p>
+                <p>
+                    Everyone who has a dryer should clean their vent every two years or it can really become a problem. Dryer vents are the second leading cause of housefires nationwide, so it's something to take very seriously.
+                </p>
+                <p>
+                    Our service radically decreases your drying times, lower your gas bill, and eliminates a major cause of housefires all at once. It's just a smart thing to do, and necessary.
+                </p>
+                <p>
+                    Duct Pros is a one stop shop for all your attic needs. Our history starts with professionalism and we know what we are doing.
+                </p>
+                <p>
+                    We have been in this business for more than five years; this year we decided to start our own company.
+                </p>
+                <p>
+                    <b>
+                        We are here when you need us!
+                    </b>
+                </p>
                 <ul class="about-btn-sec">
                     <li class="about-phone"><a href="tel: +1 (201) 555-0123"><i class="mdi mdi-phone"></i> +1 (201) 555-0123</li></a>
                 </ul>
