@@ -6,7 +6,7 @@
 
                 <nav class="navbar navbar-expand-lg">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toptoggnav" aria-controls="toptoggnav" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="mdi mdi-menu"></i>Find Us
+                        <i class="mdi mdi-menu-down"></i>Find Us
                     </button>
 
                     <div class="collapse navbar-collapse" id="toptoggnav">
