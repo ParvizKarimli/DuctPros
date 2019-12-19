@@ -24,7 +24,12 @@
                             <ul class="text-center">
                                 <li><a target="_blank" href="https://www.yelp.com/map/duct-pros-san-jose"><i class="mdi mdi-map-marker color-yellow"></i> San Jose, CA 95126</a></li>
                                 <li><a href="tel: +1 (408) 370-8797"><i class="mdi mdi-phone-in-talk color-yellow"></i> +1 (408) 370-8797</a></li>
-                                <li><a target="_blank" href="https://google.com/calendar"><i class="mdi mdi-clock color-yellow"></i> 9AM-9PM Mon-Fri</a></li>
+                                <li>
+                                    <a target="_blank" href="https://google.com/calendar">
+                                        <i class="mdi mdi-clock color-yellow"></i>
+                                        Mon-Thu 8AM-5:30PM; Fri 9AM-5PM; Sat 10AM-4PM
+                                    </a>
+                                </li>
                             </ul>
                         </div>
 

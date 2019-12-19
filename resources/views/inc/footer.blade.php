@@ -48,7 +48,7 @@
                     </p>
                     <p>
                         <a target="_blank" href="https://google.com/calendar">
-                            <i class="mdi mdi-clock color-yellow"></i> 9AM-9PM Mon-Fri
+                            <i class="mdi mdi-clock color-yellow"></i> Mon-Thu 8AM-5:30PM; Fri 9AM-5PM; Sat 10AM-4PM
                         </a>
                     </p>
                 </div>
