@@ -34,7 +34,7 @@
                         Delete
                     </a>
 
-                    <form action="services/destroy/{{ $service->id }}" method="POST" id="service-delete-form-{{ $service->id }}">
+                    <form action="services/{{ $service->id }}" method="POST" id="service-delete-form-{{ $service->id }}">
                         {{ csrf_field() }}
                         <input type="hidden" name="_method" value="DELETE">
                     </form>
