@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Title -->
-    <title>DuctPros | @yield('title_specific')</title>
+    <title>DuctPros</title>
 
     <!-- START CSS -->
     <!-- Bootstrap -->

@@ -1,7 +1,5 @@
 @extends('layouts.public.app')
 
-@section('title_specific', 'Home')
-
 @section('content')
     @include('inc.slider')
     @include('inc.about_us')
