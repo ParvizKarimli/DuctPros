@@ -57,7 +57,7 @@ class ServicesController extends Controller
         $this->validate($request, [
             'title' => 'required',
             'description' => 'required',
-            'image' => 'required',
+            'image' => 'required|image',
         ]);
 
         // Upload image
@@ -106,7 +106,16 @@ class ServicesController extends Controller
      */
     public function edit($id)
     {
-        //
+        $service = Service::find($id);
+
+        if(empty($service))
+        {
+           return redirect('/dashboard/services')->with('error', 'Service not found.');
+        }
+
+        return view('services.edit', [
+            'service' => $service
+        ]);
     }
 
     /**
@@ -118,7 +127,50 @@ class ServicesController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $service = Service::find($id);
+
+        if(empty($service))
+        {
+            return redirect('/dashboard/services')->with('error', 'Service not found.');
+        }
+
+        // Validate request input data
+        $this->validate($request, [
+            'title' => 'required',
+            'description' => 'required',
+            'image' => 'image'
+        ]);
+
+        // Upload image
+        if($request->hasFile('image'))
+        {
+            // Delete old image
+            unlink('storage/images/services/' . $service->image);
+
+            // File extension
+            $file_extension = $request->file('image')->getClientOriginalExtension();
+
+            // File name salt
+            $filename_salt = mt_rand() . '_' . time();
+
+            // File name to store in DB
+            $filename_to_store = $filename_salt . '.' . $file_extension;
+
+            // Upload new image to storage
+            $request->file('image')->storeAs('public/images/services', $filename_to_store);
+        }
+
+        // Write to DB
+        $service->title = $request->input('title');
+        $service->description = $request->input('description');
+        if($request->hasFile('image'))
+        {
+            $service->image = $filename_to_store;
+        }
+        $service->save();
+
+        // Redirect to services/index
+        return redirect('dashboard/services')->with('success', 'Service updated successfully.');
     }
 
     /**

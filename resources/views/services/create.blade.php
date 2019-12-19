@@ -31,12 +31,10 @@
                             <label for="description" class="col-md-4 control-label">Description</label>
 
                             <div class="col-md-6">
-                                <textarea id="description" class="form-control" name="description" rows="10" cols="20" required>
-                                    {{ old('description') }}
-                                </textarea>
+                                <textarea id="description" class="form-control" name="description" rows="10" cols="20" required>{{ old('description') }}</textarea>
 
                                 @if ($errors->has('description'))
-                                <span class="help-block">
+                                    <span class="help-block">
                                         <strong>{{ $errors->first('description') }}</strong>
                                     </span>
                                 @endif
@@ -47,10 +45,10 @@
                             <label for="image" class="col-md-4 control-label">Image</label>
 
                             <div class="col-md-6">
-                                <input id="image" type="file" accept=".jpg, .jpeg, .png, .gif" class="form-control" name="image" value="{{ old('image') }}" required>
+                                <input id="image" type="file" accept=".jpg, .jpeg, .png, .gif" class="form-control" name="image" required>
 
                                 @if ($errors->has('image'))
-                                <span class="help-block">
+                                    <span class="help-block">
                                         <strong>{{ $errors->first('image') }}</strong>
                                     </span>
                                 @endif
