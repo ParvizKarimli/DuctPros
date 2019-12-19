@@ -73,7 +73,7 @@ class ServicesController extends Controller
             $filename_to_store = $filename_salt . '.' . $file_extension;
 
             // Upload image to storage
-            $request->file('image')->storeAs('public/assets/images/services', $filename_to_store);
+            $request->file('image')->storeAs('public/images/services', $filename_to_store);
         }
 
         // Write to DB
