@@ -21,7 +21,7 @@
                 <td>{{ $service->title }}</td>
                 <td>{{ $service->description }}</td>
                 <td>
-                    <img src="/storage/images/services/{{ $service->image }} " width="320" height="240">
+                    <img src="/storage/images/services/{{ $service->image }}" width="320" height="240">
                 </td>
                 <td>
                     <a class="btn btn-warning" href="/dashboard/services/{{ $service->id }}/edit">
