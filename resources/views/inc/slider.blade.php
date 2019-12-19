@@ -19,8 +19,8 @@
                             <h1 class="color-blue animated bounceInRight">Perfect House Cleaning Services</h1>
                             <p class="animated bounceInRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                             <div class="slider-btn animated fadeInUp">
-                                <a href="/#packages" class="btn bg-blue">Affordable Prices</a>
-                                <a href="/#appointment" class="btn bg-white-default">Contact Us</a>
+                                <a href="/#services" class="btn bg-blue">Affordable Prices</a>
+                                <a href="/#contact-us" class="btn bg-white-default">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -38,8 +38,8 @@
                             <h1 class="color-blue animated bounceInRight">Perfect Commercial Cleaning Services</h1>
                             <p class="animated bounceInRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                             <div class="slider-btn animated fadeInUp">
-                                <a href="/#packages" class="btn bg-blue">Affordable Prices</a>
-                                <a href="/#appointment" class="btn bg-white-default">Contact Us</a>
+                                <a href="/#services" class="btn bg-blue">Affordable Prices</a>
+                                <a href="/#contact-us" class="btn bg-white-default">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -57,8 +57,8 @@
                             <h1 class="color-blue animated bounceInRight">Perfect Laundry Services</h1>
                             <p class="animated bounceInRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                             <div class="slider-btn animated fadeInUp">
-                                <a href="/#packages" class="btn bg-blue">Affordable Prices</a>
-                                <a href="/#appointment" class="btn bg-white-default">Contact Us</a>
+                                <a href="/#services" class="btn bg-blue">Affordable Prices</a>
+                                <a href="/#contact-us" class="btn bg-white-default">Contact Us</a>
                             </div>
                         </div>
                     </div>
