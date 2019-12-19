@@ -24,9 +24,8 @@
                 </div>
                 <div class="footer-list">
                     <ul>
-                        <li><a href="/services">All Services</a></li>
-                        <li><a href="service-single.html">Dryer Vent/Duct Cleaning</a></li>
-                        <li><a href="service-single.html">Chimney Sweep</a></li>
+                        <li>Dryer Vent/Duct Cleaning</li>
+                        <li>Chimney Sweep</li>
                     </ul>
                 </div>
             </div>
