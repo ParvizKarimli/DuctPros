@@ -3,7 +3,11 @@
 @section('content')
 <div class="container">
     <table class="table table-responsive table-striped">
-        <caption><h1>Services</h1></caption>
+        <caption>
+            <h1>
+                Services <a href="services/create" class="btn btn-default">Create</a>
+            </h1>
+        </caption>
         <thead>
             <tr>
                 <th>Title</th>
