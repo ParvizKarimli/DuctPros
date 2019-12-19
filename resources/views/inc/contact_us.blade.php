@@ -64,8 +64,8 @@
                     <div class="text-center">
                         <i class="mdi mdi-phone-in-talk-outline"></i>
                         <h5>
-                            <a href="tel: +1 (201) 555-0123">
-                                +1 (201) 555-0123
+                            <a href="tel: +1 (408) 370-8797">
+                                +1 (408) 370-8797
                             </a>
                         </h5>
                     </div>

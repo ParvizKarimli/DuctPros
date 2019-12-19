@@ -22,8 +22,8 @@
 
                         <div class="col-lg-7">
                             <ul class="text-center">
-                                <li><a target="_blank" href="https://google.com/maps/place/Santa+Clara,+CA+95050,+USA"><i class="mdi mdi-map-marker color-yellow"></i> Santa Clara, California, 95050</a></li>
-                                <li><a href="tel: +1 (201) 555-0123"><i class="mdi mdi-phone-in-talk color-yellow"></i> +1 (201) 555-0123</a></li>
+                                <li><a target="_blank" href="https://www.yelp.com/map/duct-pros-san-jose"><i class="mdi mdi-map-marker color-yellow"></i> San Jose, CA 95126</a></li>
+                                <li><a href="tel: +1 (408) 370-8797"><i class="mdi mdi-phone-in-talk color-yellow"></i> +1 (408) 370-8797</a></li>
                                 <li><a target="_blank" href="https://google.com/calendar"><i class="mdi mdi-clock color-yellow"></i> 9AM-9PM Mon-Fri</a></li>
                             </ul>
                         </div>

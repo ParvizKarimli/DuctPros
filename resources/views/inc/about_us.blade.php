@@ -37,7 +37,7 @@
                     </b>
                 </p>
                 <ul class="about-btn-sec">
-                    <li class="about-phone"><a href="tel: +1 (201) 555-0123"><i class="mdi mdi-phone"></i> +1 (201) 555-0123</li></a>
+                    <li class="about-phone"><a href="tel: +1 (408) 370-8797"><i class="mdi mdi-phone"></i> +1 (408) 370-8797</li></a>
                 </ul>
             </div>
 

@@ -37,13 +37,13 @@
                 </div>
                 <div class="footer-contact">
                     <p>
-                        <a target="_blank" href="https://google.com/maps/place/Santa+Clara,+CA+95050,+USA">
-                            <i class="mdi mdi-map-marker color-yellow"></i> Santa Clara, California, 95050
+                        <a target="_blank" href="https://www.yelp.com/map/duct-pros-san-jose">
+                            <i class="mdi mdi-map-marker color-yellow"></i> San Jose, CA 95126
                         </a>
                     </p>
                     <p>
-                        <a href="tel: +1 (201) 555-0123">
-                            <i class="mdi mdi-phone-in-talk color-yellow"></i> +1 (201) 555-0123
+                        <a href="tel: +1 (408) 370-8797">
+                            <i class="mdi mdi-phone-in-talk color-yellow"></i> +1 (408) 370-8797
                         </a>
                     </p>
                     <p>
