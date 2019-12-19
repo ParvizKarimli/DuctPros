@@ -106,8 +106,10 @@ class ServicesController extends Controller
      */
     public function edit($id)
     {
+        // Get the service
         $service = Service::find($id);
 
+        // Check if service is unavailable
         if(empty($service))
         {
            return redirect('/dashboard/services')->with('error', 'Service not found.');
@@ -127,8 +129,10 @@ class ServicesController extends Controller
      */
     public function update(Request $request, $id)
     {
+        // Get the service
         $service = Service::find($id);
 
+        // Check if service is unavailable
         if(empty($service))
         {
             return redirect('/dashboard/services')->with('error', 'Service not found.');
@@ -181,6 +185,22 @@ class ServicesController extends Controller
      */
     public function destroy($id)
     {
-        //
+        // Get the service
+        $service = Service::find($id);
+
+        // Check if service is unavailable
+        if(empty($service))
+        {
+            return redirect('/dashboard/services')->with('error', 'Service not found.');
+        }
+
+        // Delete service image
+        unlink('storage/images/services/' . $service->image);
+
+        // Delete service from DB
+        $service->delete();
+
+        // Redirect to services/index
+        return redirect('dashboard/services')->with('success', 'Service removed successfully.');
     }
 }
