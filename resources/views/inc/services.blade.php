@@ -8,11 +8,6 @@
                     <div class="float-left">
                         <h2 class="heading-icon">What We Offer</h2>
                     </div>
-                    <div class="float-right">
-                        <div class="section-start-btn">
-                            <a href="/services" class="btn bg-blue">View All Services</a>
-                        </div>
-                    </div>
                 </div>
             </div>
 

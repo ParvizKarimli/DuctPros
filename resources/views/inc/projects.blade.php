@@ -8,11 +8,6 @@
                     <div class="float-left">
                         <h2 class="heading-icon">Recent Projects</h2>
                     </div>
-                    <div class="float-right">
-                        <div class="section-start-btn">
-                            <a href="/projects" class="btn bg-blue">View All Projects</a>
-                        </div>
-                    </div>
                 </div>
             </div>
 
