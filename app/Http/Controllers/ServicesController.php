@@ -53,7 +53,38 @@ class ServicesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // Validate request input data
+        $this->validate($request, [
+            'title' => 'required',
+            'description' => 'required',
+            'image' => 'required',
+        ]);
+
+        // Upload image
+        if($request->hasFile('image'))
+        {
+            // File extension
+            $file_extension = $request->file('image')->getClientOriginalExtension();
+
+            // File name salt
+            $filename_salt = mt_rand() . '_' . time();
+
+            // File name to store in DB
+            $filename_to_store = $filename_salt . '.' . $file_extension;
+
+            // Upload image to storage
+            $request->file('image')->storeAs('public/assets/images/services', $filename_to_store);
+        }
+
+        // Write to DB
+        $service = new Service;
+        $service->title = $request->input('title');
+        $service->description = $request->input('description');
+        $service->image = $filename_to_store;
+        $service->save();
+
+        // Redirect to services/index
+        return redirect('dashboard/services')->with('success', 'Service created successfully.');
     }
 
     /**

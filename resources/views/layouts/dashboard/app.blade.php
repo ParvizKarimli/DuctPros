@@ -75,7 +75,12 @@
             </div>
         </nav>
 
+        <div class="container">
+            @include('inc.system.messages')
+        </div>
+
         @yield('content')
+
     </div>
 
     <!-- Scripts -->
