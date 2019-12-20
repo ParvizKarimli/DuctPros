@@ -5,7 +5,8 @@
 
             <div class="col-lg-8">
                 <div class="appointment-bg">
-                    <form class="appointment-form" action="#" method="post">
+                    <form class="appointment-form" action="/contact_us" method="post">
+                        {{ csrf_field() }}
                         <div class="row d-flex align-items-center">
 
                             <div class="col-lg-12 d-flex text-center">
@@ -17,37 +18,63 @@
                             </div>
 
                             <div class="col-lg-6 col-form-control">
-                                <div class="form-group">
-                                    <input type="text" name="name" class="form-control" placeholder="Name" />
+                                <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
+                                    <input type="text" name="name" class="form-control" placeholder="Name (required)" value="{{ old('name') }}" required/>
+
+                                    @if ($errors->has('name'))
+                                        <span class="help-block">
+                                            <strong>{{ $errors->first('name') }}</strong>
+                                        </span>
+                                    @endif
                                 </div>
                             </div>
                             <div class="col-lg-6 col-form-control">
-                                <div class="form-group">
-                                    <select name="services" class="form-control">
-                                        <option value="select">Subject</option>
-                                        <option value="house-cleaning">House Cleaning</option>
-                                        <option class="commercial-cleaning">Commercial Cleaning</option>
-                                        <option class="laundry-services">Laundry Services</option>
-                                        <option value="car-cleaning">Car Cleaning</option>
-                                        <option class="renovation-cleaning">Renovation Cleaning</option>
-                                        <option class="carpet-cleaning">Carpet Cleaning</option>
-                                        <option class="carpet-cleaning">Other</option>
+                                <div class="form-group{{ $errors->has('subject') ? ' has-error' : '' }}">
+                                    <select name="subject" class="form-control" required>
+                                        <option value="">-- Subject (required) --</option>
+                                        <option value="duct-cleaning" {{ old('subject') === 'duct-cleaning' ? 'selected' : '' }}>Dryer Vent/Duct Cleaning</option>
+                                        <option value="chimney-sweep" {{ old('subject') === 'chimney-sweep' ? 'selected' : '' }}>Chimney Sweep</option>
+                                        <option value="other" {{ old('subject') === 'other' ? 'selected' : '' }}>Other</option>
                                     </select>
+
+                                    @if ($errors->has('subject'))
+                                        <span class="help-block">
+                                            <strong>{{ $errors->first('subject') }}</strong>
+                                        </span>
+                                    @endif
                                 </div>
                             </div>
                             <div class="col-lg-6 col-form-control">
-                                <div class="form-group">
-                                    <input type="text" name="phone" class="form-control" placeholder="Phone" />
+                                <div class="form-group{{ $errors->has('phone') ? ' has-error' : '' }}">
+                                    <input type="text" name="phone" class="form-control" placeholder="Phone (required)" value="{{ old('phone') }}" required/>
+
+                                    @if ($errors->has('phone'))
+                                        <span class="help-block">
+                                            <strong>{{ $errors->first('phone') }}</strong>
+                                        </span>
+                                    @endif
                                 </div>
                             </div>
                             <div class="col-lg-6 col-form-control">
-                                <div class="form-group">
-                                    <input type="text" name="email" class="form-control" placeholder="Email" />
+                                <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+                                    <input type="email" name="email" class="form-control" placeholder="Email (optional)" value="{{ old('email') }}" />
+
+                                    @if ($errors->has('email'))
+                                        <span class="help-block">
+                                            <strong>{{ $errors->first('email') }}</strong>
+                                        </span>
+                                    @endif
                                 </div>
                             </div>
                             <div class="col-lg-12 col-form-control">
-                                <div class="form-group">
-                                    <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                                <div class="form-group{{ $errors->has('message') ? ' has-error' : '' }}">
+                                    <textarea name="message" class="form-control" rows="4" placeholder="Message (required)" required>{{ old('message') }}</textarea>
+
+                                    @if ($errors->has('message'))
+                                        <span class="help-block">
+                                            <strong>{{ $errors->first('message') }}</strong>
+                                        </span>
+                                    @endif
                                 </div>
                             </div>
                             <div class="col-lg-6 col-form-control">

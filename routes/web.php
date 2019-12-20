@@ -21,3 +21,5 @@ Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 
 Route::resource('dashboard/services', 'ServicesController');
 Route::resource('dashboard/projects', 'ProjectsController');
+
+Route::post('contact_us', 'PagesController@contact_us');
