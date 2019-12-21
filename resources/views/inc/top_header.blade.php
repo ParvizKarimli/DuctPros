@@ -15,7 +15,7 @@
                             <ul>
                                 <li><a href="https://facebook.com"><i class="mdi mdi-facebook"></i></a></li>
                                 <li><a href="https://instagram.com"><i class="mdi mdi-instagram"></i></a></li>
-                                <li><a href="https://yelp.com"><i class="mdi mdi-yelp"></i></a></li>
+                                <li><a href="https://www.yelp.com/biz/duct-pros-san-jose"><i class="mdi mdi-yelp"></i></a></li>
                                 <li><a href="https://linkedin.com"><i class="mdi mdi-linkedin"></i></a></li>
                             </ul>
                         </div>
