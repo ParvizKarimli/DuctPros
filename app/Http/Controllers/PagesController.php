@@ -23,7 +23,7 @@ class PagesController extends Controller
     {
         $this->validate($request, [
             'name' => 'required',
-            'subject' => 'required',
+            'subject' => 'required|in:duct-cleaning,chimney-sweep,other',
             'phone' => 'required',
             'email' => 'nullable|email',
             'message' => 'required'
