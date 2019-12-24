@@ -51,6 +51,7 @@
 @include('inc.loader')
 @include('inc.top_header')
 @include('inc.header')
+@include('inc.system.messages')
 
 @yield('content')
 
