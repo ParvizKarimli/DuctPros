@@ -37,5 +37,7 @@ Message: " . $request->input('message') . "\n";
         $headers = "From:DuctPros<noreply@yourductpros.com>";
 
         mail($to, $subject, $message, $headers);
+		
+		return back()->with('success', 'Email sent successfully.');
     }
 }
