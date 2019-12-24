@@ -29,7 +29,7 @@ class PagesController extends Controller
             'message' => 'required'
         ]);
 
-        $to = 'devparviz@gmail.com';
+        $to = 'info@yourductpros.com';
         $subject = $request->input('subject');
         $message = "Phone: " . $request->input('phone') . "\n
 Email: " . $request->input('email') . "\n
