@@ -36,11 +36,6 @@ Email: " . $request->input('email') . "\n
 Message: " . $request->input('message') . "\n";
         $headers = "From:DuctPros<noreply@yourductpros.com>";
 
-        echo $to . '<br>';
-        echo $subject . '<br>';
-        echo $message . '<br>';
-        echo $headers . '<br>';
-
-        //mail($to, $subject, $message, $headers);
+        mail($to, $subject, $message, $headers);
     }
 }
