@@ -54,7 +54,7 @@
                     <div class="row">
                         <div class="col-lg-7">
                             <h5 class="animated bounceInLeft">ISO Certified Company</h5>
-                            <h1 class="color-blue animated bounceInRight">Perfect Laundry Services</h1>
+                            <h1 class="color-blue animated bounceInRight">Perfect Services</h1>
                             <p class="animated bounceInRight">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                             <div class="slider-btn animated fadeInUp">
                                 <a href="/#services" class="btn bg-blue">Affordable Prices</a>
